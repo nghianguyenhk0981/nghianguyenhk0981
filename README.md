@@ -24,6 +24,15 @@
 - 🎮 Outside of work I'm interested in **game development** and in **teaching programming**
 - 📫 Looking for an internship / junior software developer position
 
+## 💼 Experience
+
+**Full-stack Developer Intern** · MedbelAI · *current*
+
+- Build features across the stack: web UI, API services, authentication and role-based access control, containerized deployment
+- Work in a monorepo with a pull request and code review workflow, backed by written decision logs
+- Apply the AI-agent workflow described below in day-to-day delivery
+- **Next:** moving to a full-time position with added responsibility for leading a team of 4
+
 ## 🧰 Tech stack
 
 <div align="center">
