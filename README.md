@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=190&section=header&text=Nguyen%20Duc%20Nghia&fontSize=44&fontColor=ffffff&animation=fadeIn&desc=Full-stack%20developer%20%C2%B7%20Cybersecurity%20%26%20Computer%20Science&descSize=18&descAlignY=68" alt="Nguyen Duc Nghia" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=190&section=header&text=Nguyen%20Duc%20Nghia&fontSize=44&fontColor=ffffff&animation=fadeIn&desc=Full-stack%20developer%20%C2%B7%20Cybersecurity%20and%20Computer%20Science&descSize=18&descAlignY=68" alt="Nguyen Duc Nghia" />
 
 <a href="https://github.com/nghianguyenhk0981">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=640&lines=Full-stack+developer+%7C+TypeScript+%26+Python;Final-year+%40+HCMUT%3A+Cybersecurity+%2B+Computer+Science;Secure+by+design%2C+from+API+to+UI;Open+to+internships+%2F+junior+roles" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=640&lines=Full-stack+developer+%7C+TypeScript+and+Python;Final-year+%40+HCMUT%3A+Cybersecurity+%2B+Computer+Science;Secure+by+design%2C+from+API+to+UI;Open+to+internships+%2F+junior+roles" alt="Typing intro" />
 </a>
 
 <img src="https://komarev.com/ghpvc/?username=nghianguyenhk0981&style=flat-square&color=2f81f7&label=PROFILE+VIEWS" alt="Profile views" />
