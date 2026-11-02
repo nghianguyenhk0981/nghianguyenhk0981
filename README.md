@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=190&section=header&text=Nguyen%20Duc%20Nghia&fontSize=44&fontColor=ffffff&animation=fadeIn&desc=Cybersecurity%20student%20%C2%B7%20Software%20developer&descSize=18&descAlignY=68" alt="Nguyen Duc Nghia" />
 
 <a href="https://github.com/nghianguyenhk0981">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=640&lines=Third-year+Cybersecurity+student+%40+HCMUT;Building+full-stack+apps+in+TypeScript+%26+Python;Interested+in+secure+software+and+SOC+operations;Open+to+internships+%2F+junior+roles" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=640&lines=Final-year+Cybersecurity+student+%40+HCMUT;Building+full-stack+apps+in+TypeScript+%26+Python;Interested+in+secure+software+and+SOC+operations;Open+to+internships+%2F+junior+roles" alt="Typing intro" />
 </a>
 
 <img src="https://komarev.com/ghpvc/?username=nghianguyenhk0981&style=flat-square&color=2f81f7&label=PROFILE+VIEWS" alt="Profile views" />
@@ -12,7 +12,7 @@
 
 ## About me
 
-- 🎓 Third-year Cybersecurity student at **Ho Chi Minh City University of Technology (HCMUT)**
+- 🎓 Final-year (4th year) Cybersecurity student at **Ho Chi Minh City University of Technology (HCMUT)**
 - 💻 I build web and backend systems end to end: API design, database, UI, deployment with Docker
 - 🛡️ I come from a security background, so I care about authentication, access control and logging from day one
 - 🔭 Currently working on my graduation project **Farmery**, a traceable agricultural e-commerce platform
