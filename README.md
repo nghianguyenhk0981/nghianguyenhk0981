@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Nguyen%20Duc%20Nghia&fontSize=46&fontColor=ffffff&animation=fadeIn&desc=Full-stack%20developer%20%C2%B7%20Cybersecurity%20and%20Computer%20Science&descSize=18&descAlignY=68" alt="Nguyen Duc Nghia" />
 
 <a href="https://github.com/nghianguyenhk0981">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Full-stack+developer+%7C+TypeScript+and+Python;Final-year+%40+HCMUT%3A+Cybersecurity+%2B+Computer+Science;Engineering+with+AI+agents%3A+plans%2C+reviews%2C+guardrails;Secure+by+design%2C+from+API+to+UI;Open+to+internships+%2F+junior+roles" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Full-stack+developer+%7C+TypeScript+and+Python;Final-year+%40+HCMUT%3A+Cybersecurity+%2B+Computer+Science;Engineering+with+AI+agents%3A+plans%2C+reviews%2C+guardrails;Secure+by+design%2C+from+API+to+UI;Open+to+collaborate+and+talk+software" alt="Typing intro" />
 </a>
 
 <br/>
@@ -22,11 +22,11 @@
 - 🤖 I build software **with AI agents** as part of a structured, human-approved workflow (see below)
 - 🔭 Currently working on my graduation project **Farmery**, a traceable agricultural e-commerce platform
 - 🎮 Outside of work I'm interested in **game development** and in **teaching programming**
-- 📫 Looking for an internship / junior software developer position
+- 📫 Open to collaborating and to talking about software: reach me by email or LinkedIn
 
 ## 💼 Experience
 
-**Full-stack Developer Intern** · MedbelAI · *current*
+**Full-stack Developer Intern** · MedbelAI · *Jun 2026 – present*
 
 - Build features across the stack: web UI, API services, authentication and role-based access control, containerized deployment
 - Work in a monorepo with a pull request and code review workflow, backed by written decision logs
