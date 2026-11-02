@@ -85,6 +85,22 @@ flowchart TD
 - 🧩 **Specialized subagents.** Separate agents for UI/UX, infrastructure, data modeling and docs, each with minimal tools and a model chosen for the job.
 - ✅ **Verify, review, document.** Every result says what was checked and how (real UI or API versus mocks); decisions go into an append-only log so context survives between sessions.
 
+<details>
+<summary><b>⚙️ My Claude Code setup</b>: hooks, subagents, skills, MCP</summary>
+
+<br/>
+
+| Layer | What I configured |
+|---|---|
+| 🪝 **Hooks** | `Stop` and `Notification` hooks in PowerShell: a desktop toast with sound when a session finishes or waits for me, plus an end-of-turn check that lists leftover child processes without killing anything. |
+| 🧩 **Subagents** | Six role-based agents: UI/UX, infrastructure, data modeling, docs, read-only lookup and read-only compliance review. Model chosen per role (Haiku for lookups, Sonnet for structured work, the main model for deep judgment) and only the tools each one needs. |
+| 🛠️ **Skills** | A project skill that captures the UI workflow: design tokens, accessibility and browser verification. |
+| 🌐 **MCP** | Playwright MCP, so the agent opens a real browser to check the UI instead of guessing. |
+| 📜 **Instructions** | Global and per-project instruction files, plus reusable templates for the documentation workflow, collaboration conventions and subagent conventions. |
+| 🧠 **Memory** | Persistent feedback memory, so corrections made once stay applied in later sessions. |
+
+</details>
+
 ## 📈 Activity
 
 <div align="center">
