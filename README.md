@@ -64,31 +64,26 @@
 
 ## 🤖 Engineering with AI agents
 
-I use AI agents (mainly Claude Code) every day, and I treat them like a team member that needs clear rules, scoped responsibilities and review. The goal is faster delivery without losing control of quality, security or the codebase.
+I work with AI agents (mainly Claude Code) inside a repeatable, human-approved workflow: faster delivery without giving up control of quality or security.
 
 ```mermaid
 flowchart TD
-    A["Task or bug"] --> B{"Scope?"}
-    B -->|"small and clear"| D["Implement with subagents"]
-    B -->|"risky or multi-module"| C["Written plan, I approve"]
+    A["Read decision log and notes"] --> B{"Risky or multi-module?"}
+    B -->|"yes"| C["Written plan, I approve"]
+    B -->|"no"| D["Build with specialized subagents, tests first"]
     C --> D
-    D --> F["Verify: tests plus real UI or API"]
-    F --> G["Review: code and security"]
-    G --> H["One commit, one purpose"]
-    H --> I["Update decision log and docs"]
+    D --> E["Verify: tests plus real UI or API"]
+    E -->|"fails"| F["Find root cause, one hypothesis at a time"]
+    F --> D
+    E -->|"passes"| G["Review code, security and side effects"]
+    G --> H["One commit per purpose"]
+    H --> I["Update decision log, start a fresh session"]
 ```
 
-| Practice | How I run it |
-|---|---|
-| 📜 **Rules as code** | Project and global instruction files define conventions, git etiquette and what the agent must never do, so behavior is consistent across sessions and projects. |
-| 🗺️ **Plan before editing** | Changes that touch several modules, alter a schema, are hard to undo or affect operations get a written plan that I approve first. Small, well-scoped fixes go straight through. |
-| 🧩 **Specialized subagents** | Separate agents for UI/UX, infrastructure, data modeling and documentation, each with minimal tools and a deliberately chosen model: a fast one for lookups, a stronger one for judgment. |
-| ♻️ **Reuse before building** | I use existing review, verify and security-review skills before writing a custom agent, and only create one when the need is recurring and clearly bounded. |
-| 🔍 **Systematic debugging** | Root cause first: one hypothesis, one small change. After three failed fixes the agent must stop and re-analyze instead of trial and error. |
-| ✅ **Honest verification** | Every claim lists each case and how it was checked (real UI or API versus mocks). UI is verified in a real browser with automation, not just type checks. |
-| 📚 **Living documentation** | Append-only decision log, open-notes file, release notes and a file index. Agents read them before work and update them after, so context survives between sessions. |
-| 🔒 **Guardrails** | The agent commits or pushes only when asked, never force-pushes, skips hooks or merges PRs, keeps credentials outside the repo, and asks before destructive actions. A stop hook flags leftover processes. |
-| 🧹 **Context hygiene** | Broad exploration goes to subagents, related requests are batched, and each task starts in a fresh session to keep the context small. |
+- 📜 **Rules live in files.** Instruction files set conventions, git etiquette and hard limits (no force-push, no auto-merge, credentials stay outside the repo), so behavior is the same in every session.
+- 🗺️ **Plan before risky changes.** Anything multi-module, schema-related or hard to undo gets a written plan I approve before any edit.
+- 🧩 **Specialized subagents.** Separate agents for UI/UX, infrastructure, data modeling and docs, each with minimal tools and a model chosen for the job.
+- ✅ **Verify, review, document.** Every result says what was checked and how (real UI or API versus mocks); decisions go into an append-only log so context survives between sessions.
 
 ## 📈 Activity
 
