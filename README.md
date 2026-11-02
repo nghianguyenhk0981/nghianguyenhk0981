@@ -58,14 +58,12 @@
 I use AI agents (mainly Claude Code) every day, and I treat them like a team member that needs clear rules, scoped responsibilities and review. The goal is faster delivery without losing control of quality, security or the codebase.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["Task or bug"] --> B{"Scope?"}
-    B -->|"small and clear"| D["Implement"]
-    B -->|"multi-module, schema change, hard to undo"| C["Write plan to a file"]
-    C --> C2["I review and approve"]
-    C2 --> D
-    D --> E["Specialized subagents"]
-    E --> F["Verify: tests plus real UI or API"]
+    B -->|"small and clear"| D["Implement with subagents"]
+    B -->|"risky or multi-module"| C["Written plan, I approve"]
+    C --> D
+    D --> F["Verify: tests plus real UI or API"]
     F --> G["Review: code and security"]
     G --> H["One commit, one purpose"]
     H --> I["Update decision log and docs"]
