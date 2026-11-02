@@ -36,23 +36,6 @@
 
 ## Featured projects
 
-<div align="center">
-
-<a href="https://github.com/nghianguyenhk0981/DACN_DATN_26">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nghianguyenhk0981&repo=DACN_DATN_26&theme=tokyonight&hide_border=true" alt="Farmery" />
-</a>
-<a href="https://github.com/nghianguyenhk0981/DADN252">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nghianguyenhk0981&repo=DADN252&theme=tokyonight&hide_border=true" alt="DADN252" />
-</a>
-<a href="https://github.com/nghianguyenhk0981/owasp-learning-hub">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nghianguyenhk0981&repo=owasp-learning-hub&theme=tokyonight&hide_border=true" alt="OWASP Learning Hub" />
-</a>
-<a href="https://github.com/nghianguyenhk0981/WEB252">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nghianguyenhk0981&repo=WEB252&theme=tokyonight&hide_border=true" alt="WEB252" />
-</a>
-
-</div>
-
 | Project | Stack | What it is |
 |---|---|---|
 | [**Farmery** (DACN_DATN_26)](https://github.com/nghianguyenhk0981/DACN_DATN_26) | TypeScript, pnpm, Turborepo, Python | Agricultural e-commerce with product traceability. Monorepo with shop, admin and API apps, a shared contract package, and the LaTeX thesis report. |
@@ -66,8 +49,6 @@
 ## GitHub stats
 
 <div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=nghianguyenhk0981&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
 
 <img src="https://streak-stats.demolab.com?user=nghianguyenhk0981&theme=tokyonight&hide_border=true" alt="Contribution streak" />
 
